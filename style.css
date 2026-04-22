@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffdff2;
+    padding: 10px;
+
+    h2{
+        color: #ff8599;
+    }
+
+    input, 
+    button{
+        display: block;
+        margin: 5px;
+        padding: 8px;
+        width: 250px;
+    }
+}
+
+button {
+    background: #ff8599;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#extrato {
+    margin-top: 20px;
+    background: #ff8599;
+    padding: 15px;
+    border-radius: 5px;
+}
