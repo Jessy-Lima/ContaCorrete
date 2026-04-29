@@ -1,31 +1,49 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background: #ffdff2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 300px;
+}
+
+h2,
+h3 {
+    color: #ff8599;
+}
+
+input,
+select,
+button {
+    display: block;
+    width: 32%;
+    margin: 8px 0;
     padding: 10px;
+    border-radius: 6px;
+}
 
-    h2{
-        color: #ff8599;
-    }
-
-    input, 
-    button{
-        display: block;
-        margin: 5px;
-        padding: 8px;
-        width: 250px;
-    }
+input,
+select {
+    border: 1px solid #ffb3c1;
 }
 
 button {
     background: #ff8599;
-    color: #ffffff;
+    color: white;
     border: none;
     cursor: pointer;
 }
 
+button:hover {
+    background: #ff6f8a;
+}
+
 #extrato {
-    margin-top: 20px;
+    margin-top: 15px;
     background: #ff8599;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
+    color: white;
+    white-space: pre-line;
 }
